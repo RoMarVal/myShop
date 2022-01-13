@@ -12,6 +12,12 @@ public class Product {
          this.id = id;
          this.price = price;
      }
+
+    public String getName() {
+        System.out.println(name);
+        return name;
+    }
+
     public void setId(int id) {
         this.id = id;
     }

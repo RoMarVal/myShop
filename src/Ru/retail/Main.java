@@ -1,5 +1,7 @@
 package Ru.retail;
 
+import Ru.retail.product.Product;
+
 import java.util.Random;
 
 public class Main {
@@ -17,6 +19,9 @@ public class Main {
             System.out.println(names[index]);
             index++;
         }
+        Product milk =new Product("Молоко","В наличии",123,45);
+        Client Vas = new Client("Вася",1,"Сбер");
+        milk.getName();
     }
 }
 
