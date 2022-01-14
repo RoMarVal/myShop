@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        int [] stock = new int[10]; //запас товара на складе
-        for(int i=0; i<10; i++){
+        int [] stock = new int[10]; //  ОСТАТКИ товара на складе - Внесли изменения рандомно, тест
+        for(int i=0; i<9; i++){
             stock[i] = i+1;
             System.out.println(stock[i]);
         }for (int i: stock){
